@@ -107,6 +107,16 @@ class CheckoutBuilder implements CheckoutBuilderInterface
     /**
      * {@inheritdoc}
      */
+    public function setNotificationURL($notificationURL)
+    {
+        $this->checkout->setNotificationURL($notificationURL);
+
+        return $this;
+    }
+
+    /**
+     * {@inheritdoc}
+     */
     public function getCheckout()
     {
         return $this->checkout;

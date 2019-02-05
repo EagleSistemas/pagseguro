@@ -32,6 +32,13 @@ interface RequestBuilder
     public function setRedirectTo($redirectTo);
 
     /**
+     * @param string $notificationURL
+     *
+     * @return self
+     */
+    public function setNotificationURL($notificationURL);
+
+    /**
      * @param string $reviewOn
      *
      * @return self

@@ -68,6 +68,13 @@ interface CheckoutBuilder
     public function setExtraAmount($extraAmount);
 
     /**
+     * @param $notificationURL
+     * 
+     * @return self
+     */
+    public function setNotificationURL($notificationURL);
+
+    /**
      * @return Checkout
      */
     public function getCheckout();

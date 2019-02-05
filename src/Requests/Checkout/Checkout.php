@@ -56,6 +56,7 @@ class Checkout
 
     /**
      * @Serializer\XmlElement(cdata=false)
+     * @Serializer\SerializedName("notificationURL")
      *
      * @var string
     */
